@@ -4,7 +4,7 @@
 @import url(./__logo/header__logo.css);
 
 .header {
-  display: flex;
+    display: flex;
     margin: 0 auto;
     max-width: 984px;
     padding-top: 34px;
