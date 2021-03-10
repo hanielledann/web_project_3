@@ -6,15 +6,3 @@
     max-width: 1184px;
     margin: 30px auto 50px;
 }
-
-@media screen and (max-width: 768px) {
-.footer {
-    max-width: 720px;
-}
-}
-
-@media screen and (max-width: 1024px) {
-.footer {
-    max-width: 928px;
-}
-}

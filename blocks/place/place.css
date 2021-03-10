@@ -16,14 +16,21 @@
     max-width: 100%;
 }
 
-@media screen and (max-width: 768px) {
-.place {
-    margin: 0 24px 80px 24px;
-}
+@media screen and (max-width: 1024px) {
+    .place {
+        margin: 0 48px 80px 48px;
+   }
 }
 
-@media screen and (max-width: 1024px) {
-.place {
-    margin: 0 48px 80px 48px;
+@media screen and (max-width: 768px) {
+   .place {
+       margin: 0 24px 80px 24px;
+  }
 }
+
+@media screen and (max-width: 600px) {
+   .place {
+       grid-template-columns: 1fr;
+       margin: 64px auto 64px;
+   }
 }

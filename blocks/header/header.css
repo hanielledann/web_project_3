@@ -12,15 +12,21 @@
     justify-content: space-between;
 }
 
-@media screen and (max-width: 860px) {
-.header {
-    max-width: 720px;
-}
+@media screen and (max-width: 1024px) {
+  .header {
+      max-width: 928px;
+      margin: auto;
+  }
 }
 
-@media screen and (max-width: 1024px) {
-.header {
-    max-width: 928px;
-    margin: auto;
+@media screen and (max-width: 860px) {
+  .header {
+      max-width: 720px;
+  }
 }
+
+@media screen and (max-width: 425px) {
+  .header {
+      max-width: 288px;
+  }
 }
