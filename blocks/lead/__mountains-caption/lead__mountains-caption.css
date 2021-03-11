@@ -11,14 +11,22 @@
     letter-spacing: 0.15em;
 }
 
+@media screen and (max-width: 1024px) {
+  .lead__mountains-caption {
+    max-width: 1024px;
+  }
+}
+
 @media screen and (max-width: 768px) {
     .lead__mountains-caption {
       margin-left: 24px;
+      max-width: 768px;
     }
   }
   
-  @media screen and (max-width: 520px) {
+  @media screen and (max-width: 320px) {
     .lead__mountains-caption {
       margin-left: 16px;
+      max-width: 320px;
     }
   }

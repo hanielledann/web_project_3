@@ -13,7 +13,22 @@
     opacity: 0.8;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 1024px) {
+    .place__link {
+        max-width: 1024px;
+     
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place__link {
+        max-width: 768px;
+       
+        margin-top: 25px;
+    }
+}
+
+@media screen and (max-width: 320px) {
     .place__link {
         display: none;
     }

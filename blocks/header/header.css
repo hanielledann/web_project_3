@@ -19,13 +19,13 @@
   }
 }
 
-@media screen and (max-width: 860px) {
+@media screen and (max-width: 768px) {
   .header {
       max-width: 720px;
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 320px) {
   .header {
       max-width: 288px;
   }

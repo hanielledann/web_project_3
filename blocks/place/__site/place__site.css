@@ -3,8 +3,22 @@
     margin-bottom: 48px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1024px) {
+  .place__site {
+    max-width: 1024px;
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__site {
+    max-width: 768px;
+    margin-bottom: 35px;
+  }
+}
+
+@media screen and (max-width: 320px) {
     .place__site {
-      padding: 0 16px;
+      max-width: 320px;
     }
   }

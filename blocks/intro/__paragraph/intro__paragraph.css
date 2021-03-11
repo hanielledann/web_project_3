@@ -7,13 +7,19 @@
     text-align: left;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width: 1024px) {
+    .intro__paragraph {
+        max-width: 1024px;
+    }
+}
+
+@media screen and (max-width: 768px) {
     .intro__paragraph {
         max-width: 720px;
     }
 }
 
-@media screen and (max-width:425px) {
+@media screen and (max-width: 320px) {
     .intro__paragraph {
         max-width: 288px;
         margin-bottom: 34px;
