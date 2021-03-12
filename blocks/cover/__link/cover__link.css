@@ -30,13 +30,15 @@
 
 @media screen and (max-width: 1024px) {
     .cover__link {
-        min-height: 640px;
+        min-height: 768px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .cover__link {
-        min-height: 480px;
+        min-height: 425px;
+        background-size: cover;
+        background-position: center;
     }
 }
 
