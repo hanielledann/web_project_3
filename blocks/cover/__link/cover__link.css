@@ -31,12 +31,16 @@
 @media screen and (max-width: 1024px) {
     .cover__link {
         min-height: 768px;
+        background-size: cover;
+        background-position: center;
     }
 }
 
 @media screen and (max-width: 768px) {
     .cover__link {
         min-height: 425px;
+        background-size: cover;
+        background-position: center;
         background-size: cover;
         background-position: center;
     }
@@ -47,6 +51,8 @@
         min-height: 200px;
         margin-bottom: 64px;
         box-sizing: content-box;
+        background-size: cover;
+        background-position: center;
     }
 }
 
